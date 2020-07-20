@@ -73,7 +73,7 @@ jobs:
         uses: P3TERX/debugger-action@master
         if: env.SSH_ACTIONS == 'true'
 
-      - name: Generate Configuration_K2P
+      - name: Generate Configuration_K2T
         env:
           CONFIG_FILE: 'k2t.config'
         run: |
